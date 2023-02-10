@@ -277,64 +277,64 @@
         }
     }
 
-    pre {
-        overflow-x: auto;
-        display: block;
-        background-color: var(--pre-background-color);
-        color: var(--pre-text-color);
-        font-family: var(--code-font-family);
-        line-height: 1.428571429;
-        word-break: break-all;
-        padding: var(--card-padding);
-        //  keep Codeblocks LTR
-        [dir="rtl"] & {
-            direction: ltr;
-        }
-        code {
-            color: unset;
-            border: none;
-            background: none;
-            padding: 0;
-        }
-    }
+    // pre {
+    //     overflow-x: auto;
+    //     display: block;
+    //     background-color: var(--pre-background-color);
+    //     color: var(--pre-text-color);
+    //     font-family: var(--code-font-family);
+    //     line-height: 1.428571429;
+    //     word-break: break-all;
+    //     padding: var(--card-padding);
+    //     //  keep Codeblocks LTR
+    //     [dir="rtl"] & {
+    //         direction: ltr;
+    //     }
+    //     code {
+    //         color: unset;
+    //         border: none;
+    //         background: none;
+    //         padding: 0;
+    //     }
+    // }
 
-    .highlight {
-        background-color: var(--pre-background-color);
-        padding: var(--card-padding);
-        position: relative;
+    // .highlight {
+    //     background-color: var(--pre-background-color);
+    //     padding: var(--card-padding);
+    //     position: relative;
 
-        &:hover {
-            .copyCodeButton {
-                opacity: 1;
-            }
-        }
-        // keep Codeblocks LTR
-        [dir="rtl"] & {
-            direction: ltr;
-        }
-        pre {
-            margin: initial;
-            padding: 0;
-            margin: 0;
-            width: auto;
-        }
-    }
+    //     &:hover {
+    //         .copyCodeButton {
+    //             opacity: 1;
+    //         }
+    //     }
+    //     // keep Codeblocks LTR
+    //     [dir="rtl"] & {
+    //         direction: ltr;
+    //     }
+    //     pre {
+    //         margin: initial;
+    //         padding: 0;
+    //         margin: 0;
+    //         width: auto;
+    //     }
+    // }
 
-    .copyCodeButton {
-        position: absolute;
-        top: calc(var(--card-padding));
-        right: calc(var(--card-padding));
-        background: var(--card-background);
-        border: none;
-        box-shadow: var(--shadow-l2);
-        border-radius: var(--tag-border-radius);
-        padding: 8px 16px;
-        color: var(--card-text-color-main);
-        cursor: pointer;
-        font-size: 14px;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
+    // .copyCodeButton {
+    //     position: absolute;
+    //     top: calc(var(--card-padding));
+    //     right: calc(var(--card-padding));
+    //     background: var(--card-background);
+    //     border: none;
+    //     box-shadow: var(--shadow-l2);
+    //     border-radius: var(--tag-border-radius);
+    //     padding: 8px 16px;
+    //     color: var(--card-text-color-main);
+    //     cursor: pointer;
+    //     font-size: 14px;
+    //     opacity: 0;
+    //     transition: opacity 0.3s ease;
+    // }
 
     .table-wrapper {
         padding: 0 var(--card-padding);
@@ -400,18 +400,18 @@
     }
 
     /// Negative margins
-    blockquote,
-    figure,
-    .highlight,
-    pre,
-    .gallery,
-    .video-wrapper,
-    .table-wrapper,
-    .s_video_simple {
-        margin-left: calc((var(--card-padding)) * -1);
-        margin-right: calc((var(--card-padding)) * -1);
-        width: calc(100% + var(--card-padding) * 2);
-    }
+    // blockquote,
+    // figure,
+    // .highlight,
+    // pre,
+    // .gallery,
+    // .video-wrapper,
+    // .table-wrapper,
+    // .s_video_simple {
+    //     margin-left: calc((var(--card-padding)) * -1);
+    //     margin-right: calc((var(--card-padding)) * -1);
+    //     width: calc(100% + var(--card-padding) * 2);
+    // }
 
     /// Make long KaTeX equations scrollable in the x-axis
     .katex-display > .katex {
