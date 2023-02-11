@@ -90,9 +90,9 @@
     color: var(--card-text-color-main);
     overflow: hidden;
 
-    ::-webkit-scrollbar-thumb {
-        background-color: var(--card-separator-color);
-    }
+    // ::-webkit-scrollbar-thumb {
+    //     background-color: var(--card-separator-color);
+    // }
 
     #TableOfContents {
         overflow-x: auto;
