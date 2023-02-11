@@ -2,8 +2,15 @@ a {
     text-decoration: none;
     color: var(--accent-color);
 
+    /* 
+        for ascii docs
+        asciidoctor don't assign "link" class to <a> tag.
+    */
+    box-shadow: 0px -2px 0px rgba(var(--link-background-color), var(--link-background-opacity)) inset;
+    transition: all 0.3s ease;
+
     &:hover {
-        color: var(--accent-color-darker);
+        box-shadow: 0px calc(-1rem * var(--article-line-height)) 0px rgba(var(--link-background-color), var(--link-background-opacity-hover)) inset;
     }
 
     &.link {
