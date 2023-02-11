@@ -91,7 +91,7 @@ let Stack = {
         //     });
         // });
 
-        // new StackColorScheme(document.getElementById('dark-mode-toggle'));
+        new StackColorScheme(document.getElementById('dark-mode-toggle'));
     }
 }
 
